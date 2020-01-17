@@ -1,7 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $("#panel-admin").css("display", "none");
 
-    $('.open').click(function() {
+    $('.open').click(function () {
         console.log("piso 21");
         $("#panel-admin").animate({ width: 'toggle' }, 100);
     });
@@ -19,15 +19,13 @@ $(document).ready(function() {
 
 });
 
-
-$(window).scroll(function() {
+$(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
         $('header').addClass("sticky");
     } else {
         $('header').removeClass("sticky");
     }
 });
-
 
 function toggleIcon(e) {
     $(e.target)
