@@ -13,6 +13,10 @@ html {
 body {
 	margin: 0;
 }
+.navbarI {
+	position: relative;
+	z-index:999;
+  }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
 	display: block;
 }

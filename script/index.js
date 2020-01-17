@@ -2,6 +2,7 @@ $(document).ready(function() {
     $("#panel-admin").css("display", "none");
 
     $('.open').click(function() {
+        console.log("piso 21");
         $("#panel-admin").animate({ width: 'toggle' }, 100);
     });
 
@@ -20,7 +21,6 @@ $(document).ready(function() {
 
 
 $(window).scroll(function() {
-
     if ($(this).scrollTop() > 50) {
         $('header').addClass("sticky");
     } else {
